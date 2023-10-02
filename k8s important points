@@ -1,0 +1,44 @@
+K8s Definition :-
+Opensource solution that provides container ocrchatration with simplicity of IAAS (Infrastructure as a service) and protability of PAAS (Platform as a service) 
+- scalablety
+- self healing
+- rollout 
+- extendable
+- run anywhere
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+connsists of :-
+
+            
+|----------------------------------|
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+Master Node                       Worker Node
+[Kubelet 
+(Manage container,
+manage pods,
+manage network,
+collect info, )]
+
+[API Server 
+(Connect to etcd, 
+connect scheduler,
+connect control plan, )]
+
+
+
+api >> etcd    [jrpc]
+api >> kubelet [TLS]
+
+
+ralt algorithm >>>>>>   ralt.github.io
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+play with k8s
+
+
+
